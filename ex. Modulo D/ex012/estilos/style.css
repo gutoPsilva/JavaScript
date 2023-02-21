@@ -22,11 +22,13 @@ section{
     background-color: #FFFFFF;
     border-radius: 10px;
     box-shadow: 1px 3px 7px 1px rgba(0, 0, 0, 0.5);
+    padding: 15px;
     color: #000000;
 }
 
-section > p, div{
-    padding: 15px;
+
+section > p{
+    padding: 10px;
 }
 
 footer{
