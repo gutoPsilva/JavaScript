@@ -25,9 +25,10 @@ section{
     color: #000000;
 }
 
-div {
+section > p, div{
     padding: 15px;
 }
+
 footer{
     padding-top: 15px;
     font: italic bold 1em arial;
