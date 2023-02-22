@@ -8,14 +8,14 @@ function verificar(){
     if(fAno.value.length != 4 || fAno.value > ano ){ // verifica se os dados são validos, 4 digitos e >=! do atual
         window.alert('Digite um ano válido.')
     }
-    else if(idade == ano){ // easter egg jesus christ
+    else if(idade == ano){ // easter egg Jesus, TODO ESTOURADO NA CALÇADA MEU NOBRE
         
         var img = document.createElement('img')
         img.setAttribute('id', 'foto')
-        img.setAttribute('src', 'jesus.jpeg')
+        img.setAttribute('src', 'images/jesus.jpg') 
+        res.appendChild(img)
 
-        window.alert('Oh my good lord, welcome back Jesus Christ')
-
+        window.alert('ENTÃO TOMA O EASTER EGG TODO ESTOURADO NA CALÇADAKKKKKKKKKKKK')
     }
     else{
         var msex = document.getElementsByName('radsex')
@@ -35,7 +35,7 @@ function verificar(){
             else if( idade >=22 && idade <=50){
                 img.setAttribute('src', 'images/ha.png')
             }
-            else {
+            else{
                 img.setAttribute('src', 'images/hv.png')
             }
         }
@@ -50,7 +50,7 @@ function verificar(){
             else if( idade >=22 && idade <=50){
                 img.setAttribute('src', 'images/ma.png')
             }
-            else {
+            else{
                 img.setAttribute('src', 'images/mv.png')
             }
         }
