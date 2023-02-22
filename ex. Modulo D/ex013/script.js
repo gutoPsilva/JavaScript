@@ -57,11 +57,6 @@ function verificar(){
         res.innerHTML = `Você tem ${idade} anos e é ${genero}`
         res.style.textAlign= 'center'
         res.appendChild(img)
+        img.style.margin= '10px'
     }
-    
-    
-    /*
-    }else{
-        window.alert(`Sua idade atual é: ${idade}`)
-    }*/
 }

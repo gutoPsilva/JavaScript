@@ -39,14 +39,6 @@ input#btn{
     padding: 3px 10px;
 }
 
-/* só vai ser aplicado quando o JS fizer a imagem aparecer
-
-div#foto{
-    text-align: center;
-    margin: 10px;
-} 
-*/
-
 p{
     margin-top: 15px;
 }
