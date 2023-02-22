@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 *{
@@ -10,40 +11,37 @@
 body{
     background-color: rgb(7, 28, 48);
     color: #FFFFFF;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
+    font: normal 1.2em Arial;
 }
 
-h1{
-    padding: 20px;
+header > h1 {
+    padding: 15px;
     font: normal 3em 'Bebas Neue', cursive;
     text-align: center;
 }
 
 section{
     width: 500px;
+    margin: auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 1px 3px 7px 1px rgba(0, 0, 0, 0.5);
     padding: 15px;
     color: #000000;
-    background-color: #FFFFFF;
-    margin: auto;
-    border-radius: 15px;
-    box-shadow: 1px 3px 4px 1px rgba(0, 0, 0, 0.5);
 }
 
-div#res{
-    padding-top: 10px;
+section > p{
+    padding: 10px 0px;
 }
 
 input#btn{
-    margin-top: 10px;
-    padding: 3px 10px;
-}
-
-p{
-    margin-top: 15px;
+    margin: 15px 0px;
+    padding: 2px 5px;
+    font-size: 0.9em;
 }
 
 footer{
     text-align: center;
     font: italic bold 1.2em arial;
+    margin-top: 15px;
 }
