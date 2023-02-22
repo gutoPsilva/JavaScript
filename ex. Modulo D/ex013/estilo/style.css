@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(7, 28, 48);
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+h1{
+    padding: 20px;
+    font: normal 3em 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+section{
+    width: 500px;
+    padding: 15px;
+    color: #000000;
+    background-color: #FFFFFF;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 1px 3px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+div#res{
+    padding-top: 10px;
+}
+
+input#btn{
+    margin-top: 10px;
+    padding: 3px 10px;
+}
+
+/* só vai ser aplicado quando o JS fizer a imagem aparecer
+
+div#foto{
+    text-align: center;
+    margin: 10px;
+} 
+*/
+
+p{
+    margin-top: 15px;
+}
+
+footer{
+    font: italic normal 2em 'Bebas Neue', cursive;
+    text-align: center;
+}
