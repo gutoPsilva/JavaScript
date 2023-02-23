@@ -22,6 +22,4 @@ function calcular(){
         }
         res.innerHTML += '&#x1F3C1'
     }
-
-    // estrutura de repetição a ser feita
 }
