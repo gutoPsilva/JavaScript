@@ -5,6 +5,7 @@ function carregar(){
     var data = new Date()
     var hora = data.getHours()
     
+    hora = 1
     if(hora == 0){
         msg.innerHTML = `Agora é ${hora}, meia noite.`
         img.src = 'images/noiteP.png'
@@ -22,7 +23,6 @@ function carregar(){
     } else{
         img.src = 'images/noiteP.png'
         msg.innerHTML = `Agora são ${hora} horas da noite.`
-        msg.innerHTML += `${sexo}`
         document.body.style.backgroundColor = 'rgb(7, 28, 48)'
     }
 }

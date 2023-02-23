@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 *{
@@ -44,4 +43,13 @@ footer{
     text-align: center;
     font: italic bold 1.2em arial;
     margin-top: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+abbr{
+    text-decoration: none;
 }

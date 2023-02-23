@@ -5,8 +5,11 @@ function verificar(){
     var res  = document.querySelector('div#res') // exibir o resultado
     var idade = ano - fAno.value // calcular idade atual
 
-    if(fAno.value.length != 4 || fAno.value > ano ){ // verifica se os dados são validos, 4 digitos e >=! do atual
-        window.alert('Digite um ano válido.')
+    if(fAno.value.length != 4){ // verifica se os dados são validos, 4 digitos
+        window.alert('Digite um ano válido com 4 digitos.')
+    }
+    else if( fAno.value > ano ){
+        window.alert('Pô my friend, nasceu no futuro?')
     }
     else if(idade == ano){ // easter egg Jesus, TODO ESTOURADO NA CALÇADA MEU NOBRE
         
