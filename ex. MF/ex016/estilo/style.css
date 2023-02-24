@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(75deg, #C33764,#1D2671);
+    color: #FFFFFF;
+    font: normal 1.2em Arial;
+}
+
+header > h1 {
+    padding: 15px;
+    font: normal 3em 'Bebas Neue', cursive;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+section{
+    width: 500px;
+    margin: auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 1px 3px 7px 1px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    color: #000000;
+}
+
+section > p{
+    padding: 10px 0px;
+}
+
+.espaço{
+    padding: 0px 7px;
+}
+
+select{
+    width: 150px;
+}
+
+div#fin{
+    margin-top: 15px;
+}
+
+footer{
+    text-align: center;
+    font: italic bold 1.2em arial;
+    margin-top: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+abbr{
+    text-decoration: none;
+}
