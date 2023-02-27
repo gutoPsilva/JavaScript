@@ -50,6 +50,10 @@ a{
     color: #FFFFFF;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 abbr{
     text-decoration: none;
 }
