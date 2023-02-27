@@ -1,6 +1,8 @@
 # JavaScript
  Curso de JavaScript do CursoemVideo.
  
+Pequenos projetos desenvolvidos no curso:
+
 Hora do sistema: https://gutopsilva.github.io/JavaScript/ex.%20MD/ex012/dD001.html
 
 Verificador de idade(easter egg): https://gutopsilva.github.io/JavaScript/ex.%20MD/ex013/dD002.html
